@@ -1,17 +1,71 @@
+
+@font-face {
+  font-family: 'PostGrotesk-Light';
+  src: url('fonts/PostGrotesk-Light.eot'); /* IE9 Compat Modes */
+  src: url('fonts/PostGrotesk-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/PostGrotesk-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/PostGrotesk-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/PostGrotesk-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/PostGrotesk-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'PostGrotesk-Book';
+  src: url('fonts/PostGrotesk-Book.eot'); /* IE9 Compat Modes */
+  src: url('fonts/PostGrotesk-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/PostGrotesk-Book.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/PostGrotesk-Book.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/PostGrotesk-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/PostGrotesk-Book.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'PostGrotesk-Medium';
+  src: url('fonts/PostGrotesk-Medium.eot'); /* IE9 Compat Modes */
+  src: url('fonts/PostGrotesk-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/PostGrotesk-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/PostGrotesk-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/PostGrotesk-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/PostGrotesk-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'PostGrotesk-Bold';
+  src: url('fonts/PostGrotesk-Bold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/PostGrotesk-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/PostGrotesk-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/PostGrotesk-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/PostGrotesk-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/PostGrotesk-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'PostGrotesk-Black';
+  src: url('fonts/PostGrotesk-Black.eot'); /* IE9 Compat Modes */
+  src: url('fonts/PostGrotesk-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/PostGrotesk-Black.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/PostGrotesk-Black.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/PostGrotesk-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/PostGrotesk-Black.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+* {
+  font-family: 'PostGrotesk-Book';
+}
+
 .manual-brand-name {
-	font-family: 'Post Grotesk';
+		font-family: 'PostGrotesk-Bold';
 }
 
 .manual-section-number {
-	font-family: 'Post Grotesk';
 }
 
 .manual-section-name {
-	font-family: 'Post Grotesk';
 }
 
 #menu h1 {
-	font-family: 'Post Grotesk';
+	 font-family: 'PostGrotesk-Black';
 }
 
 .section-hero-header-block > p,
@@ -34,5 +88,4 @@
 
 /* COLOR SECTION */
 .section-color-item-name {
-	font-family: 'Post Grotesk';
 }
