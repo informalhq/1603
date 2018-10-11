@@ -20,6 +20,11 @@ header {
   transition: .25s ease-in;
 }
 
+.section-wrapper
+{
+  background: #FFF;
+}
+
 body.over-hero header {
 	background: transparent;
 	color: #fff;
